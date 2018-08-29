@@ -21,6 +21,8 @@ void Main()
 	
 	carInventory.Dump();
 	
+	carInventory.Select(x => x).Dump();
+	
 	
 //	Enumerable.Range(1,20).Dump()
 }
